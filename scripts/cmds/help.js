@@ -52,7 +52,6 @@ module.exports = {
           helpMessage += `╭──✿ ${category}\n`;
           helpMessage += `│♡${categorizedCommands[category].join(' ♡')}\n`;
           helpMessage += "╰───────────✿\n";
-          helpMessage += "Bot owner Shahadat Hossain\nhttps://t.me/shahadat20066\nhttps://fb.com/shahadat20066";
         }
 
         await bot.sendMessage(msg.chat.id, helpMessage, { parse_mode: 'markdown' });
